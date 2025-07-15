@@ -21,4 +21,7 @@ export default function () {
   });
   
   sleep(1);
+  // Another bit of commentary
+  // This is a simple load test script for K6
+  // It tests the response from a public API endpoint
 }
