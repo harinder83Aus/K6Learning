@@ -1,0 +1,7 @@
+# Run with Prometheus output
+k6 run k6-evershop-test.js
+
+*Below command to execute K6 load test whilst sending stats to influxdb*
+
+k6 run k6-evershop-test.js --out influxdb=http://localhost:8086/k6
+
